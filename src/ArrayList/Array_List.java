@@ -6,8 +6,6 @@ public class Array_List<T> {
     private int size;
     private int index;
     private Object[] array;
-
-
     public Array_List(){
         size = 0;
         index = 0;
