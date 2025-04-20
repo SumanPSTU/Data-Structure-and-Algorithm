@@ -15,7 +15,6 @@ public class DisplayQueue {
         Queue<Integer> helper = new LinkedList<>();
         while (queue.size()>0){
             System.out.println(helper.add(queue.poll()));
-
         }
         System.out.println(helper);
     }
