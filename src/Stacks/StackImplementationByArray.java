@@ -16,7 +16,7 @@ public class StackImplementationByArray {
             array[index++] = value;
             size++;
         }
-        void display(){
+        void display()  {
             System.out.println(Arrays.toString(array));
         }
         boolean isEmpty(){

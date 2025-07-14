@@ -2,7 +2,12 @@ package com.sumon;
 public class LinkedListDemo<T> {
     private ListNode head;
     private ListNode tail;
-    private int size = 0;
+    private int size;
+    public LinkedListDemo(){
+        size = 0;
+        head = null;
+        tail = null;
+    }
 
     private class ListNode{
         T value;
